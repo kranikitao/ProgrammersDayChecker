@@ -2,7 +2,7 @@
 
 class ProgrammersDayChecker
 {
-    public function check()
+    public function check( )
     {
         $currentDay = new \DateTime('today');
         $interval = new DateInterval('P255D');
